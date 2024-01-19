@@ -1,0 +1,173 @@
+:root{
+  scroll-behavior: auto;
+}
+.home {
+  height: 41.25rem;
+  background-image: url(../imgs/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  width: 100%;
+}
+
+.home h2 {
+  font-size: 60px;
+  margin-top: 200px;
+}
+
+.home .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+.home .header-caption {
+  transition: all 0.5s;
+}
+
+.home .openNavbar {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.home .sidBar {
+  background-color: #414658;
+}
+
+.home .sidBar a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+
+.home #leftMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.home .sidBar a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+
+.home .sidBar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+
+
+#sliderDown {
+  margin: 100px auto;
+  width: 50%;
+
+}
+
+#sliderDown h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+
+#sliderDown div {
+  padding: 10px;
+  background-color: #ccc;
+  display: none;
+}
+
+#sliderDown .first {
+  display: block;
+}
+
+
+
+.contact .social-list {
+  margin-top: 100px;
+  color: #777;
+}
+
+.contact .social-list i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.7s;
+}
+
+.contact .social-list i:hover {
+  color: #fff;
+  background-color: #D62E33;
+  border: 1px solid #D62E33;
+}
+
+
+
+
+
+
+
+
+
+#count {
+  background-image: url(../imgs/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 340px;
+}
+
+
+.count-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+
+.container {
+  padding: 100px 0px;
+}
+
+.tim {
+  padding: 50px;
+  border: 1px solid #FFF;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+
+
+textarea {
+  height: 200px;
+  resize: vertical;
+}
